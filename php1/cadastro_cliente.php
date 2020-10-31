@@ -17,19 +17,19 @@
                     <form method="POST" action="">
                         <div class="form-group">
                             <label class="label-form" for="nome">Nome: </label>
-                            <input class="form-control" type="text" name="nome" id="nome" onkeyup="valida_campos">
+                            <input class="form-control" type="text" name="nome" id="nome" onkeyup="valida_campos()">
                         </div>
                         <div class="form-group">
                             <label class="label-form" for="email">E-mail: </label>
-                            <input class="form-control" type="email" name="email" id="email" onkeyup="valida_campos">
+                            <input class="form-control" type="email" name="email" id="email" onkeyup="valida_campos()">
                         </div>
                         <div class="form-group">
                             <label  class="label-form" for="senha">Senha: </label>
-                            <input class="form-control" type="password" name="senha" id="senha" onkeyup="valida_campos">
+                            <input class="form-control" type="password" name="senha" id="senha" onkeyup="valida_campos()">
                         </div>
                         <div class="row">
                             <div class="col-1">
-                                <a href="#" class="btn btn-success disabled mb-4" name="cadastrar" id="cadastrar-cliente"> Cadastrar </a>
+                                <button type="submit" name="cadastrar" class="btn btn-success mb-4" id="cadastrar-cliente"> Cadastrar </button>
                             </div>
                         </div>
                     </form>
